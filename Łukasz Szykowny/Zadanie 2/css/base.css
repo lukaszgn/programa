@@ -1,0 +1,29 @@
+body {
+  padding-top: 5rem;
+}
+.task-container {
+  padding: 1rem 1.5rem 3rem 1.5rem;
+  text-align: left;
+}
+
+.task-container .list-inline, .base_size{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.cv_img{
+    position:absolute;
+    width: 300px;
+}
+
+.task-container h2, .task-container h1{
+    text-align: center;
+}
+
+@media (max-width: 767.98px) {
+	.cv_img {
+		position:relative;
+	  }
+	.task-container, .task-container h2, .task-container h1{
+		text-align: center;
+	}
+}

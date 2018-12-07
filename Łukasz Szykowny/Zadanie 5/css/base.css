@@ -1,0 +1,19 @@
+body {
+  padding-top: 5rem;
+}
+.task-container {
+  padding: 1rem 1.5rem 3rem 1.5rem;
+  text-align: center;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+}
